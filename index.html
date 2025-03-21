@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="image/bg.png" alt="Background Image">
+        </div>
+        <div class="right-section">
+            <div class= "message">
+            <h3>Welcome back</h3>
+            <h1>Login to your account</h1> </div>
+
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="John.snow@gmail.com" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="********" required>
+                
+                <div class="options">
+                    <label for="remember">
+                        <input type="checkbox" id="remember"> Remember me
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                
+                
+                <button type="submit" class="login-btn">Login now</button>
+               <button type="button" class="google-btn">
+                    <img src="image/search.png" alt="Google Logo">
+                    Or sign-in with Google
+                </button>
+            </form>
+            <p class = "noaccount">Don't have an account? <a href="#">Join free today</a></p>
+        </div>
+    </div>
+</body>
+</html>
